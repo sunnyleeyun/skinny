@@ -308,6 +308,7 @@
 				04B1A2AC1EEAF90F00749935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
