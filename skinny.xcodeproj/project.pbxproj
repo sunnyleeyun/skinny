@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494A7611EFC296C007D5A4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0494A7601EFC296C007D5A4A /* GoogleService-Info.plist */; };
+		0494A7631EFC2DC1007D5A4A /* WeightFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */; };
 		04B1A2991EEAF90F00749935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A2981EEAF90F00749935 /* AppDelegate.swift */; };
 		04B1A29B1EEAF90F00749935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A29A1EEAF90F00749935 /* ViewController.swift */; };
 		04B1A29E1EEAF90F00749935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1A29C1EEAF90F00749935 /* Main.storyboard */; };
 		04B1A2A11EEAF90F00749935 /* skinny.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A29F1EEAF90F00749935 /* skinny.xcdatamodeld */; };
 		04B1A2A31EEAF90F00749935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B1A2A21EEAF90F00749935 /* Assets.xcassets */; };
 		04B1A2A61EEAF90F00749935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1A2A41EEAF90F00749935 /* LaunchScreen.storyboard */; };
+		E10050F16ABF941E851BB8F8 /* Pods_skinny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6871E03D6A3E567F2E92C1C /* Pods_skinny.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0494A76C1EFD1B30007D5A4A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0494A7601EFC296C007D5A4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightFatViewController.swift; sourceTree = "<group>"; };
 		04B1A2951EEAF90F00749935 /* skinny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skinny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1A2981EEAF90F00749935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B1A29A1EEAF90F00749935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +42,9 @@
 		04B1A2A21EEAF90F00749935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B1A2A51EEAF90F00749935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B1A2A71EEAF90F00749935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE40E869D07FF27E676E341F /* Pods-skinny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skinny.release.xcconfig"; path = "Pods/Target Support Files/Pods-skinny/Pods-skinny.release.xcconfig"; sourceTree = "<group>"; };
+		DFC7B60E091BC4DE21574BA7 /* Pods-skinny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skinny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skinny/Pods-skinny.debug.xcconfig"; sourceTree = "<group>"; };
+		E6871E03D6A3E567F2E92C1C /* Pods_skinny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skinny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10050F16ABF941E851BB8F8 /* Pods_skinny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +64,8 @@
 			children = (
 				04B1A2971EEAF90F00749935 /* skinny */,
 				04B1A2961EEAF90F00749935 /* Products */,
+				0736E25AA02739611AD48319 /* Pods */,
+				387EBC9F824EC6880B496D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,32 @@
 			children = (
 				04B1A2981EEAF90F00749935 /* AppDelegate.swift */,
 				04B1A29A1EEAF90F00749935 /* ViewController.swift */,
+				0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */,
 				04B1A29C1EEAF90F00749935 /* Main.storyboard */,
 				04B1A2A21EEAF90F00749935 /* Assets.xcassets */,
 				04B1A2A41EEAF90F00749935 /* LaunchScreen.storyboard */,
 				04B1A2A71EEAF90F00749935 /* Info.plist */,
+				0494A7601EFC296C007D5A4A /* GoogleService-Info.plist */,
 				04B1A29F1EEAF90F00749935 /* skinny.xcdatamodeld */,
 			);
 			path = skinny;
+			sourceTree = "<group>";
+		};
+		0736E25AA02739611AD48319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC7B60E091BC4DE21574BA7 /* Pods-skinny.debug.xcconfig */,
+				AE40E869D07FF27E676E341F /* Pods-skinny.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		387EBC9F824EC6880B496D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6871E03D6A3E567F2E92C1C /* Pods_skinny.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B1A2AA1EEAF90F00749935 /* Build configuration list for PBXNativeTarget "skinny" */;
 			buildPhases = (
+				2EBFDE1EF50FD1934BFD1883 /* [CP] Check Pods Manifest.lock */,
 				04B1A2911EEAF90F00749935 /* Sources */,
 				04B1A2921EEAF90F00749935 /* Frameworks */,
 				04B1A2931EEAF90F00749935 /* Resources */,
+				985084285E7A0B79BDC9E96D /* [CP] Embed Pods Frameworks */,
+				7930FB44E4F6F9BC8A1D5A92 /* [CP] Copy Pods Resources */,
+				0494A76C1EFD1B30007D5A4A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,12 +175,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B1A2A61EEAF90F00749935 /* LaunchScreen.storyboard in Resources */,
+				0494A7611EFC296C007D5A4A /* GoogleService-Info.plist in Resources */,
 				04B1A2A31EEAF90F00749935 /* Assets.xcassets in Resources */,
 				04B1A29E1EEAF90F00749935 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBFDE1EF50FD1934BFD1883 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7930FB44E4F6F9BC8A1D5A92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skinny/Pods-skinny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985084285E7A0B79BDC9E96D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skinny/Pods-skinny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B1A2911EEAF90F00749935 /* Sources */ = {
@@ -142,6 +238,7 @@
 			files = (
 				04B1A29B1EEAF90F00749935 /* ViewController.swift in Sources */,
 				04B1A2991EEAF90F00749935 /* AppDelegate.swift in Sources */,
+				0494A7631EFC2DC1007D5A4A /* WeightFatViewController.swift in Sources */,
 				04B1A2A11EEAF90F00749935 /* skinny.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +362,7 @@
 		};
 		04B1A2AB1EEAF90F00749935 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC7B60E091BC4DE21574BA7 /* Pods-skinny.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
@@ -278,6 +376,7 @@
 		};
 		04B1A2AC1EEAF90F00749935 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE40E869D07FF27E676E341F /* Pods-skinny.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VJGEDW5SA9;
