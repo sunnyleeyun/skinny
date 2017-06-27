@@ -15,13 +15,21 @@ class WeightFatViewController: UIViewController {
     @IBOutlet weak var myView: BarChartView!
 
     
-    
-    var monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-    var temperatureArray:[Double] = [20, 21, 22, 23, 24, 25, 26, 27, 28, 29 ,30, 31, 32]
+    var months: [String]!
+    let unitsSold = [20.0, 4.0, 6.0, 3.0, 12.0, 16.0, 4.0, 18.0, 2.0, 4.0, 5.0, 4.0]
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        
+        setChart(dataPoints: months, values: unitsSold)
+        
+        
+
+        
         // Do any additional setup after loading the view.
     }
 
@@ -30,6 +38,24 @@ class WeightFatViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func setChart(dataPoints: [String], values: [Double]) {
+        myView.noDataText = "You need to provide data for the chart."
+        
+        var dataEntries: [BarChartDataEntry] = []
+        
+        for i in 0..<dataPoints.count {
+            let dataEntry = BarChartDataEntry(x: Double(i), y: unitsSold[i])
+            dataEntries.append(dataEntry)
+        }
+        
+        let chartDataSet = BarChartDataSet(values: dataEntries, label: "Units Sold")
+        let chartData = BarChartData(dataSet: chartDataSet)
+        myView.data = chartData
+        
+    }
+    
+    
+    /*
     func updateChartsData() {
         //生成一個存放資料的陣列，型別是BarChartDataEntry.
         var dataEntries: [BarChartDataEntry] = []
@@ -48,16 +74,8 @@ class WeightFatViewController: UIViewController {
         //最後在指定剛剛連結的myView要顯示的資料為charData
         myView.data = charData
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
     */
+
+    
 
 }
