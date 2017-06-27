@@ -50,7 +50,9 @@ class WeightFatViewController: UIViewController {
         
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Units Sold")
         let chartData = BarChartData(dataSet: chartDataSet)
+        chartDataSet.colors = [UIColor(red: 230/255, green: 126/255, blue: 34/255, alpha: 1)]
         myView.data = chartData
+        
         
     }
     
