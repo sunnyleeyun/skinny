@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0494A7611EFC296C007D5A4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0494A7601EFC296C007D5A4A /* GoogleService-Info.plist */; };
 		0494A7631EFC2DC1007D5A4A /* WeightFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */; };
+		04960ADF1F0D06620036B13F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04960ADE1F0D06620036B13F /* MainViewController.swift */; };
 		04B1A2991EEAF90F00749935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A2981EEAF90F00749935 /* AppDelegate.swift */; };
 		04B1A29B1EEAF90F00749935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1A29A1EEAF90F00749935 /* ViewController.swift */; };
 		04B1A29E1EEAF90F00749935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1A29C1EEAF90F00749935 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		0494A7601EFC296C007D5A4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightFatViewController.swift; sourceTree = "<group>"; };
+		04960ADE1F0D06620036B13F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04B1A2951EEAF90F00749935 /* skinny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skinny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1A2981EEAF90F00749935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B1A29A1EEAF90F00749935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				04B1A2981EEAF90F00749935 /* AppDelegate.swift */,
 				04B1A29A1EEAF90F00749935 /* ViewController.swift */,
+				04960ADE1F0D06620036B13F /* MainViewController.swift */,
 				0494A7621EFC2DC1007D5A4A /* WeightFatViewController.swift */,
 				04B1A29C1EEAF90F00749935 /* Main.storyboard */,
 				04B1A2A21EEAF90F00749935 /* Assets.xcassets */,
@@ -240,6 +243,7 @@
 				04B1A2991EEAF90F00749935 /* AppDelegate.swift in Sources */,
 				0494A7631EFC2DC1007D5A4A /* WeightFatViewController.swift in Sources */,
 				04B1A2A11EEAF90F00749935 /* skinny.xcdatamodeld in Sources */,
+				04960ADF1F0D06620036B13F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
