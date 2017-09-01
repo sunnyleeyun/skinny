@@ -47,6 +47,7 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.0)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.0)
   - GTMSessionFetcher/Core (1.1.7)
+  - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
   - Charts
@@ -54,6 +55,7 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - TesseractOCRiOS (= 4.0.0)
 
 SPEC CHECKSUMS:
   Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
@@ -68,7 +70,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
   GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 8522de5e48efb9bda80859b2909da149c3b60796
+PODFILE CHECKSUM: 0c1bf2436bd708023669aae5b0f1260836560954
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.3.0.beta.2

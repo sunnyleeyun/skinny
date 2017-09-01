@@ -36,6 +36,7 @@ class MainViewController: UIViewController {
         
         combinedChart.noDataText = "Please provide data for the chart."
         
+        
         var yVals1 : [ChartDataEntry] = [ChartDataEntry]()
         var yVals2 : [BarChartDataEntry] = [BarChartDataEntry]()
         
