@@ -16,7 +16,7 @@ class OCRViewController: UIViewController, G8TesseractDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var tesseract:G8Tesseract = G8Tesseract(language:"eng+ita");
+        var tesseract:G8Tesseract = G8Tesseract(language:"eng");
         //tesseract.language = "eng+ita";
         tesseract.delegate = self;
         tesseract.charWhitelist = "01234567890";

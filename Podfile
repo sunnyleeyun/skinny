@@ -15,6 +15,7 @@ pod 'Firebase/Storage'
 pod 'Charts'
 
 pod 'TesseractOCRiOS', '4.0.0'
+pod 'TesseractOCRiOS', :git => 'https://github.com/gali8/Tesseract-OCR-iOS.git'
 
 
 end
